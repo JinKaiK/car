@@ -67,11 +67,12 @@ html,body{
 	background: #999;
 }
 .jkk-left ul li{
-	height: 30px;
-	line-height: 30px;
+	height: 50px;
+	line-height: 50px;
 	font-size: 14px;
 	text-align: center;
 	color: white;
+	cursor: pointer;
 }
 
 .jkk-right{
@@ -82,14 +83,17 @@ html,body{
 .jkk-right-index{
 	width: 80%;
 	height: 50px;
-	float: left;
 	line-height: 50px;
+	display: block;
 }
 .jkk-add{
 	display: inline-block;
 	color: #999;
 	padding-left: 20px;
 	cursor: pointer;
+}
+.jkk-right ul{
+	display: none;
 }
 .jkk-right ul p{
 	text-align: center;

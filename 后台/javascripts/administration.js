@@ -20,6 +20,11 @@ $(function(){
 		}
 	});
 })
+
+$(".jkk-left-ul li").click(function(){
+	 $(".jkk-left-ul li").eq($(this).index()).css("background","red").siblings().css('background',"#999")
+	$(".jkk-right ul").hide().eq($(this).index()).show();
+})
 function shan(id){
 	$.ajax({
 		url:"http://localhost:8005/admin/dele",
