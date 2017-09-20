@@ -1,0 +1,106 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	background: #f0f0f0;
+	position: relative;
+}
+.box{
+	width: 1024px;
+	min-width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+.jkk-big{
+	width: 240px;
+	height: 240px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	margin-top: -150px;
+	margin-left: -150px;
+	background: #ccc;
+	display: none;
+	padding: 30px
+}
+.jkk-big input{
+	width: 240px;
+	height: 50px;
+	font-size: 24px;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.jkk-big button{
+	width: 150px;
+	height: 50px;
+	font-size: 24px;
+	margin-top: 50px;
+	margin-left: 45px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.jkk-top{
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	font-size: 50px;
+	color: #999;
+	border-bottom: 1px solid #777;
+}
+.jkk-con{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-top: 91px;
+	box-sizing: border-box;
+}
+.jkk-left{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background: #999;
+}
+.jkk-left ul li{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
+
+.jkk-right{
+	height: 100%;
+	width: 80%;
+	float: right;
+}
+.jkk-right-index{
+	width: 80%;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+.jkk-add{
+	display: inline-block;
+	color: #999;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.jkk-right ul p{
+	text-align: center;
+}
+.jkk-right-index li{
+	margin: 0 25px;
+	color: #777;
+	font-size: 14px;
+	cursor: pointer;
+}
+.jkk-right-index li button{
+	float: right;
+	margin-top: 16px;
+}
